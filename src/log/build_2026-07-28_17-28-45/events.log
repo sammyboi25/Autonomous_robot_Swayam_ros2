@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000460] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000590] (robot_des) JobQueued: {'identifier': 'robot_des', 'dependencies': OrderedDict()}
+[0.003001] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.045880] (robot_des) JobStarted: {'identifier': 'robot_des'}
+[0.099298] (-) TimerEvent: {}
+[0.200174] (-) TimerEvent: {}
+[0.300812] (-) TimerEvent: {}
+[0.401459] (-) TimerEvent: {}
+[0.502127] (-) TimerEvent: {}
+[0.602739] (-) TimerEvent: {}
+[0.703483] (-) TimerEvent: {}
+[0.804207] (-) TimerEvent: {}
+[0.904870] (-) TimerEvent: {}
+[1.005500] (-) TimerEvent: {}
+[1.106158] (-) TimerEvent: {}
+[1.206813] (-) TimerEvent: {}
+[1.307507] (-) TimerEvent: {}
+[1.408188] (-) TimerEvent: {}
+[1.508882] (-) TimerEvent: {}
+[1.609515] (-) TimerEvent: {}
+[1.710695] (-) TimerEvent: {}
+[1.811336] (-) TimerEvent: {}
+[1.911883] (-) TimerEvent: {}
+[2.012412] (-) TimerEvent: {}
+[2.112971] (-) TimerEvent: {}
+[2.213564] (-) TimerEvent: {}
+[2.314325] (-) TimerEvent: {}
+[2.414976] (-) TimerEvent: {}
+[2.515693] (-) TimerEvent: {}
+[2.616439] (-) TimerEvent: {}
+[2.717203] (-) TimerEvent: {}
+[2.817745] (-) TimerEvent: {}
+[2.918337] (-) TimerEvent: {}
+[3.018899] (-) TimerEvent: {}
+[3.119452] (-) TimerEvent: {}
+[3.219991] (-) TimerEvent: {}
+[3.320564] (-) TimerEvent: {}
+[3.421114] (-) TimerEvent: {}
+[3.521666] (-) TimerEvent: {}
+[3.622384] (-) TimerEvent: {}
+[3.723115] (-) TimerEvent: {}
+[3.823779] (-) TimerEvent: {}
+[3.924490] (-) TimerEvent: {}
+[4.025255] (-) TimerEvent: {}
+[4.125971] (-) TimerEvent: {}
+[4.226716] (-) TimerEvent: {}
+[4.327554] (-) TimerEvent: {}
+[4.428312] (-) TimerEvent: {}
+[4.529120] (-) TimerEvent: {}
+[4.629810] (-) TimerEvent: {}
+[4.730655] (-) TimerEvent: {}
+[4.831426] (-) TimerEvent: {}
+[4.932432] (-) TimerEvent: {}
+[5.033147] (-) TimerEvent: {}
+[5.133904] (-) TimerEvent: {}
+[5.234475] (-) TimerEvent: {}
+[5.335060] (-) TimerEvent: {}
+[5.435612] (-) TimerEvent: {}
+[5.536364] (-) TimerEvent: {}
+[5.637138] (-) TimerEvent: {}
+[5.656772] (robot_des) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/swayam/summer_project/src/build/robot_des/build', '--no-deps', 'symlink_data'], 'cwd': '/home/swayam/summer_project/src/build/robot_des', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'swayam', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/swayam/ros2_ws/install/px4_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/swayam', 'OLDPWD': '/home/swayam/summer_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2502', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/swayam/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'swayam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'swayam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/swayam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/swayam-HP-Pavilion-Notebook:@/tmp/.ICE-unix/2469,unix/swayam-HP-Pavilion-Notebook:/tmp/.ICE-unix/2469', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6787914e_0849_466b_90f8_c735f9dde609', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/swayam/ros2_ws/install/trackbot_sim:/home/swayam/ros2_ws/install/my_drone_pkg:/home/swayam/ros2_ws/install/px4_msgs:/home/swayam/ros2_ws/install/my_robot_desc:/home/swayam/ros2_ws/install/my_robot_controller:/home/swayam/ros2_ws/install/my_robot_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/swayam/summer_project/src/build/robot_des', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/swayam/summer_project/src/build/robot_des/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayam/summer_project/src/install/robot_des/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/trackbot_sim/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/my_drone_pkg/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/my_robot_desc/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/swayam/ros2_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.676087] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/swayam/summer_project/src/build/robot_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/swayam/summer_project/src/build/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'swayam', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/swayam/ros2_ws/install/px4_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/swayam', 'OLDPWD': '/home/swayam/summer_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2502', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/swayam/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'swayam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'swayam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/swayam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/swayam-HP-Pavilion-Notebook:@/tmp/.ICE-unix/2469,unix/swayam-HP-Pavilion-Notebook:/tmp/.ICE-unix/2469', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6787914e_0849_466b_90f8_c735f9dde609', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/swayam/ros2_ws/install/trackbot_sim:/home/swayam/ros2_ws/install/my_drone_pkg:/home/swayam/ros2_ws/install/px4_msgs:/home/swayam/ros2_ws/install/my_robot_desc:/home/swayam/ros2_ws/install/my_robot_controller:/home/swayam/ros2_ws/install/my_robot_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/swayam/summer_project/src/build/robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/swayam/summer_project/src/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayam/summer_project/src/install/robot_bringup/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/trackbot_sim/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/my_drone_pkg/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/my_robot_desc/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/swayam/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/swayam/ros2_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.737341] (-) TimerEvent: {}
+[5.838001] (-) TimerEvent: {}
+[5.938572] (-) TimerEvent: {}
+[6.039189] (-) TimerEvent: {}
+[6.139807] (-) TimerEvent: {}
+[6.240472] (-) TimerEvent: {}
+[6.341001] (-) TimerEvent: {}
+[6.441598] (-) TimerEvent: {}
+[6.542162] (-) TimerEvent: {}
+[6.642734] (-) TimerEvent: {}
+[6.743355] (-) TimerEvent: {}
+[6.843942] (-) TimerEvent: {}
+[6.944518] (-) TimerEvent: {}
+[7.045101] (-) TimerEvent: {}
+[7.145710] (-) TimerEvent: {}
+[7.246313] (-) TimerEvent: {}
+[7.347103] (-) TimerEvent: {}
+[7.447671] (-) TimerEvent: {}
+[7.458921] (robot_bringup) StdoutLine: {'line': b'running develop\n'}
+[7.499659] (robot_des) StdoutLine: {'line': b'running develop\n'}
+[7.547890] (-) TimerEvent: {}
+[7.648477] (-) TimerEvent: {}
+[7.749099] (-) TimerEvent: {}
+[7.849705] (-) TimerEvent: {}
+[7.950309] (-) TimerEvent: {}
+[8.050929] (-) TimerEvent: {}
+[8.151517] (-) TimerEvent: {}
+[8.252131] (-) TimerEvent: {}
+[8.352738] (-) TimerEvent: {}
+[8.453337] (-) TimerEvent: {}
+[8.553944] (-) TimerEvent: {}
+[8.654522] (-) TimerEvent: {}
+[8.677426] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[8.678500] (robot_bringup) StdoutLine: {'line': b'creating robot_bringup.egg-info\n'}
+[8.741182] (robot_des) StdoutLine: {'line': b'running egg_info\n'}
+[8.742231] (robot_des) StdoutLine: {'line': b'creating robot_des.egg-info\n'}
+[8.754725] (-) TimerEvent: {}
+[8.801703] (robot_bringup) StdoutLine: {'line': b'writing robot_bringup.egg-info/PKG-INFO\n'}
+[8.803041] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to robot_bringup.egg-info/dependency_links.txt\n'}
+[8.804108] (robot_bringup) StdoutLine: {'line': b'writing requirements to robot_bringup.egg-info/requires.txt\n'}
+[8.805019] (robot_bringup) StdoutLine: {'line': b'writing top-level names to robot_bringup.egg-info/top_level.txt\n'}
+[8.805926] (robot_bringup) StdoutLine: {'line': b"writing manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[8.854925] (-) TimerEvent: {}
+[8.862731] (robot_des) StdoutLine: {'line': b'writing robot_des.egg-info/PKG-INFO\n'}
+[8.864022] (robot_des) StdoutLine: {'line': b'writing dependency_links to robot_des.egg-info/dependency_links.txt\n'}
+[8.865005] (robot_des) StdoutLine: {'line': b'writing requirements to robot_des.egg-info/requires.txt\n'}
+[8.865872] (robot_des) StdoutLine: {'line': b'writing top-level names to robot_des.egg-info/top_level.txt\n'}
+[8.866701] (robot_des) StdoutLine: {'line': b"writing manifest file 'robot_des.egg-info/SOURCES.txt'\n"}
+[8.955112] (-) TimerEvent: {}
+[9.046559] (robot_bringup) StdoutLine: {'line': b"reading manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[9.049525] (robot_bringup) StdoutLine: {'line': b"writing manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[9.055269] (-) TimerEvent: {}
+[9.110013] (robot_des) StdoutLine: {'line': b"reading manifest file 'robot_des.egg-info/SOURCES.txt'\n"}
+[9.112720] (robot_des) StdoutLine: {'line': b"writing manifest file 'robot_des.egg-info/SOURCES.txt'\n"}
+[9.155486] (-) TimerEvent: {}
+[9.172337] (robot_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[9.173433] (robot_bringup) StdoutLine: {'line': b'Creating /home/swayam/summer_project/src/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)\n'}
+[9.175212] (robot_bringup) StdoutLine: {'line': b'\n'}
+[9.176170] (robot_bringup) StdoutLine: {'line': b'Installed /home/swayam/summer_project/src/build/robot_bringup\n'}
+[9.177236] (robot_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[9.177956] (robot_bringup) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_bringup/share/ament_index\n'}
+[9.179056] (robot_bringup) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_bringup/share/ament_index/resource_index\n'}
+[9.179806] (robot_bringup) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_bringup/share/ament_index/resource_index/packages\n'}
+[9.180530] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_bringup/resource/robot_bringup -> /home/swayam/summer_project/src/install/robot_bringup/share/ament_index/resource_index/packages\n'}
+[9.181591] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_bringup/package.xml -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup\n'}
+[9.182312] (robot_bringup) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/config\n'}
+[9.183163] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_bringup/config/gazebo_bridge.yaml -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/config\n'}
+[9.183799] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_bringup/config/nav2_params.yaml -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/config\n'}
+[9.184500] (robot_bringup) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/launch\n'}
+[9.185169] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_bringup/launch/sim_launch.xml -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/launch\n'}
+[9.185823] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_bringup/launch/nav_launch.py -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/launch\n'}
+[9.186493] (robot_bringup) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/worlds\n'}
+[9.187172] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_bringup/worlds/home.sdf -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/worlds\n'}
+[9.187789] (robot_bringup) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/maps\n'}
+[9.188445] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_bringup/maps/my_map.yaml -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/maps\n'}
+[9.189103] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_bringup/maps/my_map.pgm -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/maps\n'}
+[9.251433] (robot_des) StdoutLine: {'line': b'running build_ext\n'}
+[9.252601] (robot_des) StdoutLine: {'line': b'Creating /home/swayam/summer_project/src/install/robot_des/lib/python3.12/site-packages/robot-des.egg-link (link to .)\n'}
+[9.255025] (robot_des) StdoutLine: {'line': b'\n'}
+[9.255790] (-) TimerEvent: {}
+[9.256463] (robot_des) StdoutLine: {'line': b'Installed /home/swayam/summer_project/src/build/robot_des\n'}
+[9.257306] (robot_des) StdoutLine: {'line': b'running symlink_data\n'}
+[9.258223] (robot_des) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_des/share/ament_index\n'}
+[9.259040] (robot_des) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_des/share/ament_index/resource_index\n'}
+[9.259864] (robot_des) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_des/share/ament_index/resource_index/packages\n'}
+[9.260658] (robot_des) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_des/resource/robot_des -> /home/swayam/summer_project/src/install/robot_des/share/ament_index/resource_index/packages\n'}
+[9.261762] (robot_des) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_des/package.xml -> /home/swayam/summer_project/src/install/robot_des/share/robot_des\n'}
+[9.262454] (robot_des) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_des/share/robot_des/launch\n'}
+[9.263066] (robot_des) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_des/launch/launch.xml -> /home/swayam/summer_project/src/install/robot_des/share/robot_des/launch\n'}
+[9.263639] (robot_des) StdoutLine: {'line': b'creating /home/swayam/summer_project/src/install/robot_des/share/robot_des/urdf\n'}
+[9.264271] (robot_des) StdoutLine: {'line': b'symbolically linking /home/swayam/summer_project/src/build/robot_des/urdf/robot.urdf.xacro -> /home/swayam/summer_project/src/install/robot_des/share/robot_des/urdf\n'}
+[9.289936] (robot_bringup) CommandEnded: {'returncode': 0}
+[9.352614] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[9.355993] (-) TimerEvent: {}
+[9.379927] (robot_des) CommandEnded: {'returncode': 0}
+[9.411943] (robot_des) JobEnded: {'identifier': 'robot_des', 'rc': 0}
+[9.415399] (-) EventReactorShutdown: {}

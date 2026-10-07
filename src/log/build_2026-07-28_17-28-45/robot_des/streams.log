@@ -1,0 +1,26 @@
+[5.614s] Invoking command in '/home/swayam/summer_project/src/build/robot_des': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayam/summer_project/src/build/robot_des/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayam/summer_project/src/install/robot_des/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/swayam/summer_project/src/build/robot_des/build --no-deps symlink_data
+[7.454s] running develop
+[8.696s] running egg_info
+[8.697s] creating robot_des.egg-info
+[8.817s] writing robot_des.egg-info/PKG-INFO
+[8.819s] writing dependency_links to robot_des.egg-info/dependency_links.txt
+[8.820s] writing requirements to robot_des.egg-info/requires.txt
+[8.821s] writing top-level names to robot_des.egg-info/top_level.txt
+[8.821s] writing manifest file 'robot_des.egg-info/SOURCES.txt'
+[9.065s] reading manifest file 'robot_des.egg-info/SOURCES.txt'
+[9.067s] writing manifest file 'robot_des.egg-info/SOURCES.txt'
+[9.206s] running build_ext
+[9.207s] Creating /home/swayam/summer_project/src/install/robot_des/lib/python3.12/site-packages/robot-des.egg-link (link to .)
+[9.210s] 
+[9.211s] Installed /home/swayam/summer_project/src/build/robot_des
+[9.212s] running symlink_data
+[9.213s] creating /home/swayam/summer_project/src/install/robot_des/share/ament_index
+[9.214s] creating /home/swayam/summer_project/src/install/robot_des/share/ament_index/resource_index
+[9.214s] creating /home/swayam/summer_project/src/install/robot_des/share/ament_index/resource_index/packages
+[9.215s] symbolically linking /home/swayam/summer_project/src/build/robot_des/resource/robot_des -> /home/swayam/summer_project/src/install/robot_des/share/ament_index/resource_index/packages
+[9.216s] symbolically linking /home/swayam/summer_project/src/build/robot_des/package.xml -> /home/swayam/summer_project/src/install/robot_des/share/robot_des
+[9.217s] creating /home/swayam/summer_project/src/install/robot_des/share/robot_des/launch
+[9.218s] symbolically linking /home/swayam/summer_project/src/build/robot_des/launch/launch.xml -> /home/swayam/summer_project/src/install/robot_des/share/robot_des/launch
+[9.218s] creating /home/swayam/summer_project/src/install/robot_des/share/robot_des/urdf
+[9.219s] symbolically linking /home/swayam/summer_project/src/build/robot_des/urdf/robot.urdf.xacro -> /home/swayam/summer_project/src/install/robot_des/share/robot_des/urdf
+[9.335s] Invoked command in '/home/swayam/summer_project/src/build/robot_des' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayam/summer_project/src/build/robot_des/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayam/summer_project/src/install/robot_des/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/swayam/summer_project/src/build/robot_des/build --no-deps symlink_data

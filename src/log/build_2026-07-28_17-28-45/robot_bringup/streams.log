@@ -1,0 +1,33 @@
+[5.681s] Invoking command in '/home/swayam/summer_project/src/build/robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayam/summer_project/src/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayam/summer_project/src/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/swayam/summer_project/src/build/robot_bringup/build --no-deps symlink_data
+[7.456s] running develop
+[8.675s] running egg_info
+[8.676s] creating robot_bringup.egg-info
+[8.799s] writing robot_bringup.egg-info/PKG-INFO
+[8.800s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[8.801s] writing requirements to robot_bringup.egg-info/requires.txt
+[8.802s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[8.803s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[9.044s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[9.047s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[9.170s] running build_ext
+[9.171s] Creating /home/swayam/summer_project/src/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)
+[9.172s] 
+[9.174s] Installed /home/swayam/summer_project/src/build/robot_bringup
+[9.174s] running symlink_data
+[9.175s] creating /home/swayam/summer_project/src/install/robot_bringup/share/ament_index
+[9.176s] creating /home/swayam/summer_project/src/install/robot_bringup/share/ament_index/resource_index
+[9.177s] creating /home/swayam/summer_project/src/install/robot_bringup/share/ament_index/resource_index/packages
+[9.178s] symbolically linking /home/swayam/summer_project/src/build/robot_bringup/resource/robot_bringup -> /home/swayam/summer_project/src/install/robot_bringup/share/ament_index/resource_index/packages
+[9.179s] symbolically linking /home/swayam/summer_project/src/build/robot_bringup/package.xml -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup
+[9.180s] creating /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/config
+[9.180s] symbolically linking /home/swayam/summer_project/src/build/robot_bringup/config/gazebo_bridge.yaml -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/config
+[9.181s] symbolically linking /home/swayam/summer_project/src/build/robot_bringup/config/nav2_params.yaml -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/config
+[9.182s] creating /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/launch
+[9.182s] symbolically linking /home/swayam/summer_project/src/build/robot_bringup/launch/sim_launch.xml -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/launch
+[9.183s] symbolically linking /home/swayam/summer_project/src/build/robot_bringup/launch/nav_launch.py -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/launch
+[9.184s] creating /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/worlds
+[9.184s] symbolically linking /home/swayam/summer_project/src/build/robot_bringup/worlds/home.sdf -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/worlds
+[9.185s] creating /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/maps
+[9.186s] symbolically linking /home/swayam/summer_project/src/build/robot_bringup/maps/my_map.yaml -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/maps
+[9.186s] symbolically linking /home/swayam/summer_project/src/build/robot_bringup/maps/my_map.pgm -> /home/swayam/summer_project/src/install/robot_bringup/share/robot_bringup/maps
+[9.287s] Invoked command in '/home/swayam/summer_project/src/build/robot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayam/summer_project/src/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayam/summer_project/src/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/swayam/summer_project/src/build/robot_bringup/build --no-deps symlink_data

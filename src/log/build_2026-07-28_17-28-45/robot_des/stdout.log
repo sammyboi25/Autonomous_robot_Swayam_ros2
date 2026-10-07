@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating robot_des.egg-info
+writing robot_des.egg-info/PKG-INFO
+writing dependency_links to robot_des.egg-info/dependency_links.txt
+writing requirements to robot_des.egg-info/requires.txt
+writing top-level names to robot_des.egg-info/top_level.txt
+writing manifest file 'robot_des.egg-info/SOURCES.txt'
+reading manifest file 'robot_des.egg-info/SOURCES.txt'
+writing manifest file 'robot_des.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/swayam/summer_project/src/install/robot_des/lib/python3.12/site-packages/robot-des.egg-link (link to .)
+
+Installed /home/swayam/summer_project/src/build/robot_des
+running symlink_data
+creating /home/swayam/summer_project/src/install/robot_des/share/ament_index
+creating /home/swayam/summer_project/src/install/robot_des/share/ament_index/resource_index
+creating /home/swayam/summer_project/src/install/robot_des/share/ament_index/resource_index/packages
+symbolically linking /home/swayam/summer_project/src/build/robot_des/resource/robot_des -> /home/swayam/summer_project/src/install/robot_des/share/ament_index/resource_index/packages
+symbolically linking /home/swayam/summer_project/src/build/robot_des/package.xml -> /home/swayam/summer_project/src/install/robot_des/share/robot_des
+creating /home/swayam/summer_project/src/install/robot_des/share/robot_des/launch
+symbolically linking /home/swayam/summer_project/src/build/robot_des/launch/launch.xml -> /home/swayam/summer_project/src/install/robot_des/share/robot_des/launch
+creating /home/swayam/summer_project/src/install/robot_des/share/robot_des/urdf
+symbolically linking /home/swayam/summer_project/src/build/robot_des/urdf/robot.urdf.xacro -> /home/swayam/summer_project/src/install/robot_des/share/robot_des/urdf
